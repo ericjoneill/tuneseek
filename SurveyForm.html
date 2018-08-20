@@ -1,0 +1,237 @@
+<style>
+    
+    html{
+        font-family:sans-serif;
+        background-image: url("https://lorelleteaches.files.wordpress.com/2012/08/seamless-background-image-tile.jpg?w=584");
+        text-align: center;
+    }
+    
+    #form-outer{
+        background-color: rgb(250, 250, 250, .8);
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        max-width: 900px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    
+    #form-text{
+        font-size: 1em;
+        text-shadow:1px 1px lightgray;
+    }
+    
+    .labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+    
+    .rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+    
+    .input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+    
+    .userAge {
+        height:20px;
+        width: 50px;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+}
+    
+    .userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+    
+    #submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+    
+    .dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+    
+    .radio, .checkbox {
+  position: relative;
+  left: -40px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+</style>
+
+
+<html>
+    
+    <header></header>
+    
+    <body>
+        
+        <h1 id = "title">Eric's Pizza Palace | Feedback</h1>
+        
+        <div id = "form-outer">
+            
+            <div id = "form-text">
+        
+            <p id = "description">What can Eric's Pizza Palace do better?</p>
+            
+            <form id = "survey-form">
+                
+
+                    <div class="labels">
+                
+                <label id = "name-label" for="name">* Name</label>
+                        
+                </div>
+                
+                <div class="rightTab">
+                
+                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                    
+                </div>
+                    
+                
+                <div class="labels">
+                
+                <label id="email-label" for="email">* Email</label>
+                    
+                </div>
+                    
+                <div class="rightTab">
+                
+                <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email"> 
+                    
+                    </div>
+                    
+                <div class="labels">
+                
+                <label id="number-label" for="age">* Age</label>
+                    
+                </div>
+                    
+                    <div class="rightTab">
+                
+                <input type="number" name="age" id="number" min="1" max="125" class="userAge" placeholder="Age" required>
+                        
+                        </div>
+                
+                    <div class="labels">
+                
+                <label for="howHear">What made you visit Eric's Pizza Palace?</label>
+                        
+                        </div>
+                    
+                    <div class="rightTab">
+                
+                <select id="dropdown" name="howHear" class="dropdown">
+                    <option disabled value>Select an option</option>
+                    <option value="peer">Friends/Family</option>
+                    <option value="fcc">Looking at bad website on fCC</option>
+                    <option value="social">Social Media/Food Mobile App</option>
+                    <option value="ad">Television Ad</option>
+                    <option value="other">Other</option>
+                </select>
+                        
+                        </div>
+
+                
+                    <div class="labels">
+                
+                <label for="userRating">Would you recommend our food to a friend?</label>
+                        
+                        </div>
+                    <div class= "rightTab">
+                
+                <ul style="list-style: none;">
+                    <li class="radio"><label>Of course!<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+                    
+                    <li class="radio"><label>Probably<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+                    
+                    <li class="radio"><label>Meh<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
+                    
+                </ul>
+                </div>
+                    
+                    <div class="labels">
+                
+                <label for = "preferences">What can we improve? <br>Check all that apply</label>
+                        
+                        </div>
+                    <div class="rightTab">
+                
+                <ul id ="preferences" style="list-style: none;">
+                    <li class="checkbox"><label>
+                        <input type = "checkbox" name="prefer" value="1" class="userRatings">Our Famous Pizza?!</label></li>
+                    
+                    <li class="checkbox"><label>
+                        <input type = "checkbox" name="prefer" value="2" class="userRatings">Broader Menu Options</label></li>
+                    
+                    <li class="checkbox"><label>
+                        <input type = "checkbox" name="prefer" value="3" class="userRatings">Dining Room</label></li>
+                    
+                    <li class="checkbox"><label>
+                        <input type = "checkbox" name="prefer" value="4" class="userRatings">Delivery time</label></li>
+                    
+                    <li class="checkbox"><label>
+                        <input type = "checkbox" name="prefer" value="5" class="userRatings">Answer my calls!</label></li>
+        
+                        </ul>
+                        
+                        </div>
+                    
+                    <div class="labels">
+                        
+                        <label for="comments">In your own words, how can we provide a better overall experience?</label>
+                        
+                        </div>
+                    
+                    <div class="rightTab">
+                        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                        
+                        </div>
+                
+                
+                <button id="submit" type ="submit">Submit</button>
+                </form>            
+        
+        
+            </div>
+        
+        </div>
+          
+        
+    </body>
+    
+</html>
