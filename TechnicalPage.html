@@ -1,0 +1,249 @@
+<style>
+    
+    body{
+        background: #A3BBAD;
+        
+    }
+    
+    .container{
+        display: grid;
+    }
+    
+    .menu{
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        background: rgb(34,73,65,.3);
+        border-style: dotted;
+        left: 0;
+        top: 0;
+    }
+    .menu-item{
+        position: relative;
+        left: 15px;
+        width: 100%;
+        height: 80px;
+        font-family: sans-serif;
+        border-style:none;
+        font-size: 1.5em;
+    }
+    
+    .menu-text{
+        position: absolute;
+        top: 700px;
+        left:330px;
+        min-width: 100px;
+
+    }
+    
+    .glossary-title{
+        position: relative;
+        left: 6px;
+        width: 100%;
+        height: 80px;
+        font-family: sans-serif;
+        border-style:none;
+        font-size: 2em;
+        margin-bottom: 20px;
+        font-style:oblique;
+            
+    }
+    
+    a{
+        text-decoration: none;
+        background-color: none;
+        color: black;
+        
+    }
+    
+    .welcome{
+        position: absolute;
+        left:350px;
+        top:200px;
+        font-family: cursive;
+        font-size: 2em;
+        white-space: nowrap;
+        margin-bottom: 500px;
+    }
+    
+    header{
+        font-size: 1.5em;
+        margin: 20px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .hm{
+        margin-top: 40px;
+    }
+    
+    #thx{
+        margin-top: 100px;
+    }
+    
+    p{
+        position: relative;
+        margin: 20px;
+        min-width: 550px;
+        max-width: 870px;
+    }
+    
+    @media screen and (max-width: 900px) {
+        
+    .menu{
+        position:absolute;
+        top:0;
+    }
+    .menu-text{
+        left:0px;
+
+    }
+    .welcome{
+        display: none;
+    }
+        
+    p{
+        min-width: 0px;
+    }
+    .menu{
+        width: 100%;
+        border-style: none;
+    }
+        
+}
+    
+    
+</style>
+    
+    
+    <main class="container" id="main-doc">
+    
+    <nav class="menu" id="navbar">
+        
+        <header class="glossary-title">Front End Tech</header>
+        
+        <div class="menu-item"><a class="nav-link" href = "#Hypertext_Markup_Language">Hypertext Markup Language</a></div>
+        
+        <div class="menu-item"><a class="nav-link" href = "#Cascading_Style_Sheets">Cascading Style Sheets</a></div>
+        
+        <div class="menu-item"><a class="nav-link" href = "#Javascript">Javascript</a></div>
+        
+        <div class="menu-item"><a class="nav-link" href = "#Angular">Angular</a></div>
+        
+        <div class="menu-item"><a class="nav-link" href = "#React">React</a></div>
+    
+        <div class="menu-item"><a class="nav-link" href = "#Node">Node</a></div>
+        
+        <div class="menu-item"><a class="nav-link" href = "#Credits">Credits</a></div>
+    
+        </nav>
+        
+        <div class="welcome">
+            <h1>Let's talk Front End</h1>
+            
+            <h3>by Eric O'Neill</h3>
+        </div>
+        
+        
+        
+        
+    <div class="menu-text" id="main-doc">
+        
+        <section id = "Hypertext_Markup_Language" class= "main-section"><header>Hypertext Markup Language</header>
+        
+        <p><code>Hypertext Markup Language (HTML)</code> is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.<br><br>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<br><br>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as img and input directly introduce content into the page. Other tags such as the p tag surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.<br><br>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997</p>
+        
+            </section>
+            
+        <section id = "Cascading_Style_Sheets" class = "main-section hm"><header>Cascading Style Sheets</header>
+        
+        <p><code>Cascading Style Sheets (CSS)</code> is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.<br><br>
+
+CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.<br><br>
+
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.<br><br>
+
+The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.<br><br>
+
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.<br><br>
+
+In addition to HTML, other markup languages support the use of CSS, including XHTML, plain XML, SVG, and XUL.</p>
+            
+            </section>
+        
+        
+        
+        <section id = "Javascript" class = "main-section hm"><header>Javascript</header>
+        
+        <p><code>Javascript</code>, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.<br><br>
+
+Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it, and all major web browsers have a dedicated JavaScript engine to execute it.<br><br>
+
+As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.<br><br>
+
+Initially only implemented client-side in web browsers, JavaScript engines are now embedded in many other types of host software, including server-side in web servers and databases, and in non-web programs such as word processors and PDF software, and in runtime environments that make JavaScript available for writing mobile and desktop applications, including desktop widgets.<br><br>
+
+Although there are strong outward similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design; JavaScript was influenced by programming languages such as Self and Scheme.</p>
+        
+        </section>
+        
+        <section class = "main-section hm" id = "Angular" ><header>Angular</header>
+        
+        <p><code>AngularJS (also written as Angular.js)</code> is a JavaScript-based open source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single page applications. The JavaScript components complement Apache Cordova, a framework used for developing cross platform mobile apps. It aims to simplify both the development and the testing of such applications by providing a framework for client side model view controller (MVC) and model view viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. (This flexibility has led to the acronym MVW, which stands for "model-view whatever" and may also encompass model view presenter and model view adapter.) In 2014, the original AngularJS team began working on the Angular application platform.<br><br>
+
+The AngularJS framework works by first reading the HTML page, which has additional custom tag attributes embedded into it. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.</p>
+
+<p>According to JavaScript analytics service Libscore, AngularJS is used on the websites of Wolfram Alpha, NBC, Walgreens, Intel, Sprint, ABC News, and about 12,000 other sites out of 1 million tested in October 2016. AngularJS is currently in the top 100 of the most starred projects on GitHub.<br><br>
+
+AngularJS is the frontend part of the MEAN stack, consisting of MongoDB database, Express.js web application server framework, Angular.js itself, and Node.js server runtime environment.</p>
+            
+            </section>
+        
+        
+        
+        <section id = "React" class = "main-section hm"><header>React</header>
+        
+        <p>In computing, <code>React (also known as React.js or ReactJS)</code> is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.</p>
+
+<p>React can be used as a base in the development of single-page or mobile applications. Complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API.</p>
+            
+            </section>
+        
+        
+        
+        <section id ="Node" class="main-section hm"><header>Node</header>
+        
+        
+        <p><code>Node.js</code> is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML and run client-side by a JavaScript engine in the user's web browser. Node.js lets developers use JavaScript to write Command Line tools and for server-side scripting-running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web application development around a single programming language, rather than different languages for server side and client side scripts.</p>
+
+<p>Though .js is the conventional filename extension for JavaScript code, the name "Node.js" does not refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).<br><br>
+
+The Node.js distributed development project, governed by the Node.js Foundation, is facilitated by the Linux Foundation's Collaborative Projects program.<br><br>
+
+Corporate users of Node.js software include, but are not limited to, the following:
+            
+            <ul>
+            <li>Yahoo!</li>
+            <li>IBM</li>
+            <li>Netflix</li>
+            <li>Microsoft</li>
+            <li>Walmart</li>
+            </ul>
+            
+            </p>
+            
+            </section>
+        
+        <br>
+        <br>
+        
+        <section id="Credits" class="main-section"><header>Credits</header>
+        
+        <p>Thank you to the contributors of these wikipedia summaries of Front End technologies. Without your work this website would not exist.</p>
+  
+        </section>
+        
+        </div>
+        
+</main>
