@@ -1,0 +1,389 @@
+<style>
+    body{
+    }
+    
+    .container{
+        font-family: times new roman;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+    .back1{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: url("https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+    
+    
+    .back2{
+        position: absolute;
+        margin-top: 5px;
+        top: 696px;
+        right: 0;
+        background-image: url("https://images.pexels.com/photos/7199/night-trees-stars.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        width:100%;
+        height: 500px;
+    }
+    
+    .back3{
+        position: absolute;
+        margin-top: 5px;
+        top: 1197px;
+        right: 0;
+        background-image: url("https://images.pexels.com/photos/235858/pexels-photo-235858.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        background-color: black;
+        width:100%;
+        height: 700px;
+    }    
+    
+    .title-one{
+        position: absolute;
+        right: 50px;
+        top: 500px;
+        font-size: 1.3em;
+    }
+    
+    .title-container{
+        display: inline-block;
+        background: transparent;
+        width: 500px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    
+    .profile-pic{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        border-radius: 50%;
+        display: inline-block;
+        background-image: url("https://image.ibb.co/nKVLDU/profile_pic.jpg");
+        background-size: contain;
+        box-shadow: 0px 0px 0px 2px white;
+        
+    }
+    
+    h1{
+        font-size: 3.8em;
+        margin-bottom: -15px;
+    }
+    h3{
+        font-size: 1.4em;
+        
+    }
+    #bus-card{
+        margin-top: 60px;
+        min-width: 900px;
+    }
+    
+    .nav-bar{
+        position:fixed;
+        height: 60px;
+        width: 100%;
+        background: rgb(100,100,100,.0);
+        top: 125px;
+    }
+    .top-nav{
+        position:fixed;
+        height: 40px;
+        width: 100%;
+        background: rgb(100,100,100,);
+        top: -15px;
+        min-width: 1000px;
+    }
+
+    .social{
+        position: relative;
+        display: inline-block;
+        height: auto;
+        width:60px;
+        padding: 5px;
+        float: right;
+    }
+    .nav-links{
+        float: right;
+        padding-right: 80px;
+        overflow: hidden;
+        margin: 15px;
+        color: white;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    li a{
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+    }
+    
+    li a:hover{
+        color: #004C54;
+    }
+    
+    .hey-container{
+        min-width: 530px;
+        position:absolute;
+        height: auto;
+        width: 50%;
+        font-size: 1.5em;
+        color: white;
+        margin-top: 110px;
+        margin-left: 50px;
+        box-shadow: 0px 0px 1px 0px white;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(0,0,0,.7);
+    }
+    .bigger{
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+    .portfolio-title{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 4em;
+        font-weight: bolder;
+        text-shadow: 0px 10px 50px green;
+        color: white;
+        top: 80px;
+        min-width: 1000px;
+    }
+    #scroll {
+        width:800px;
+        height:300px;
+        margin:100px auto;
+        background:rgba(0,0,0,.6);
+        border:2px solid #000;
+        overflow:auto;
+        border-radius: 10px;
+        box-shadow:0 0 1px 0 white;
+        
+    }
+    #scroll ul {
+        float:left;
+        margin-right:-999em;
+        white-space:nowrap;
+        list-style:none;
+    }
+    #scroll li {
+        margin:15px;
+        text-align:center;
+        float:left;
+        display:inline;           
+    }
+    #scroll img {
+        height: 200px;
+        width: 400px;
+        border:0;
+        display:block;
+        border:1px solid black;
+    }
+    #scroll a:active img, #scroll a:focus img, #scroll a:hover img {
+        border:1px solid darkblue;
+    }
+    #scroll a {
+
+    }
+    #scroll a:active, #scroll a:focus, #scroll a:hover {
+        color:#FFF;
+    }
+    #scroll span {
+        padding:5px 0 0;
+        display:block;
+        text-decoration:underline;
+        font-weight:bold;
+        color:white;
+    }
+
+
+    @keyframes moveSlideshow {
+        100% {
+            transform: translateX(-66.6666%);  
+        }
+    }
+
+/* footer */
+    #footer {
+        position: absolute;
+        bottom: 10px;
+        color: white;  
+        width: 100%;
+        padding: 10px;
+        background: transparent; 
+    }
+</style>
+
+<header>
+    <title>Eric | Web Developer</title>
+</header>
+
+
+<body>
+    
+    
+    <div class = "container">
+        
+    <div class="back1" id="BACKTOTOP">
+        
+        <ul class="top-nav">
+            
+            <li class="nav-links">
+                <a href="#PORTFOLIO">Portfolio</a>
+            </li>
+            
+            <li class="nav-links">
+                <a href="#BIO">BIO</a>
+            </li>
+
+        </ul>
+        
+        <div class="nav-bar">
+        <div class="social">
+        <a href="https://github.com/ericjoneill" target="_blank" title="GitHub">
+            
+        <img class = "social" src="https://www.shareicon.net/data/512x512/2016/07/06/107139_development_512x512.png" alt="GitHub" border="0"/>
+            
+        </a>
+            
+        <a href="https://www.linkedin.com/in/eric-o-neill-7a01a516a/" target="_blank" title="GitHub">
+        
+        <img class = "social" src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_linkedin_button_blue.png" alt="LinkedIn">
+            
+        </a>
+            
+        <a href="https://twitter.com/ericspad" target="_blank" title="GitHub">
+        
+        <img class = "social" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" alt="Twitter">
+            
+        </a>
+        </div>
+        
+        </div>
+        <div id="bus-card">
+        <div class="profile-pic"></div>
+        <div class="title-container"><h1>Eric O'Neill</h1><h3>Web Developer</h3></div>
+        </div>
+        
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class = "back2" id="BIO">
+            
+        <ul class="top-nav">
+        <li class="nav-links"><a href="#PORTFOLIO">Portfolio</a></li>
+        <li class="nav-links"><a href="#BIO">Bio</a></li>
+
+        </ul>
+            
+        <div class="nav-bar">
+        <div class="social">
+        <a href="https://github.com/ericjoneill" target="_blank" title="GitHub">
+            
+        <img class = "social" src="https://www.shareicon.net/data/512x512/2016/07/06/107139_development_512x512.png" alt="GitHub" border="0"/>
+            
+        </a>
+            
+        <a href="https://www.linkedin.com/in/eric-o-neill-7a01a516a/" target="_blank" title="GitHub">
+        
+        <img class = "social" src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_linkedin_button_blue.png">
+        
+        </a>
+            
+        <a href="https://twitter.com/ericspad" target="_blank" title="Twitter">
+        
+        <img class = "social" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" alt="Twitter">
+            
+        </a>
+            </div>
+        
+            </div>
+            
+            <div class="hey-container">
+                <span class="bigger">About Me</span><br>
+                Hello world, I am Eric, a 24 year old Web Developer currently living in the greater Philadelphia area. I create websites from scratch using languages like CSS, HTML and Javascript. Featured in my portfolio you will find some websites I've completed for clients as freelance work, while some of the other websites I've made are tailored to some of my hobbies outside of work just for fun. You can find these projects in my portfolio found below.
+                
+            </div>
+        
+        </div>
+        
+        <div class="back3" id="PORTFOLIO">
+            
+        <ul class="top-nav">
+            
+            <li class="nav-links">
+                <a href="#PORTFOLIO">Portfolio</a>
+            </li>
+            
+            <li class="nav-links">
+                <a href="#BIO">BIO</a>
+            </li>
+
+        </ul>            
+        
+                <div class="nav-bar">
+        <div class="social">
+        <a href="https://github.com/ericjoneill" target="_blank" title="GitHub">
+            
+        <img class = "social" src="https://www.shareicon.net/data/512x512/2016/07/06/107139_development_512x512.png" alt="GitHub" border="0"/>
+            
+        </a>
+            
+        <a href="https://www.linkedin.com/in/eric-o-neill-7a01a516a/" target="_blank" title="GitHub">
+        
+        <img class = "social" src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_linkedin_button_blue.png" alt="LinkedIn">
+            
+        </a>
+            
+        <a href="https://twitter.com/ericspad" target="_blank" title="GitHub">
+        
+        <img class = "social" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" alt="Twitter">
+            
+        </a>
+        </div>
+        
+        </div>
+            
+            <div class="portfolio-title">My Portfolio</div>
+        
+<div id="scroll">
+<ul>
+    
+<li><a href="https://ericjoneill.github.io/myWebsites/seasontix.html" target="_blank"><img src="https://i.imgur.com/LCmqvv2.png?1" alt=""><span>Football Tickets Page</span></a></li>
+    
+<li><a href="https://ericjoneill.github.io/myWebsites/SurveyForm.html" target="_blank"><img src="https://i.imgur.com/FSKZJuw.png?1" alt=""><span>Food Feedback Form</span></a></li>
+    
+<li><a href="https://ericjoneill.github.io/myWebsites/TechnicalPage.html" target="_blank"><img src="https://i.imgur.com/FucuInL.png?1" alt=""><span>Front End Documentation</span></a></li>
+    
+<li><img src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?cs=srgb&dl=business-coming-soon-computer-211122.jpg&fm=jpg" alt=""><span>TBD</span></li>
+</ul>
+    
+</div>
+                 
+<div id="footer">        
+      
+
+      &copy; 2018 &nbsp; | &nbsp; Design by Eric O'Neill
+
+      
+</div>
+        
+
+        </div>
+    </div>
+</body>
+
+
+
+
