@@ -11,7 +11,7 @@
     
     .back1{
         position: absolute;
-        top: 0;
+        top: 0px;
         right: 0;
         background-image: url("https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         background-size: cover;
@@ -54,7 +54,7 @@
         display: inline-block;
         background: transparent;
         width: 500px;
-        height: 200px;
+        height: 205px;
         margin-left: 20px;
     }
     
@@ -77,7 +77,6 @@
     }
     h3{
         font-size: 1.4em;
-        
     }
     #bus-card{
         margin-top: 60px;
@@ -110,7 +109,7 @@
     }
     .nav-links{
         float: right;
-        padding-right: 80px;
+        padding-right: 50px;
         overflow: hidden;
         margin: 15px;
         color: white;
@@ -212,6 +211,106 @@
             transform: translateX(-66.6666%);  
         }
     }
+    
+    @media only screen and (max-width: 600px){
+        #scroll {
+        width:500px;
+        height:300px;
+        margin:100px auto;
+        background:rgba(0,0,0,.6);
+        border:2px solid #000;
+        overflow:auto;
+        border-radius: 10px;
+        box-shadow:0 0 1px 0 white;
+        
+    }
+        .portfolio-title{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 3em;
+        font-weight: bolder;
+        text-shadow: 0px 10px 50px green;
+        color: white;
+        top: 80px;
+        min-width: 100px;
+        }
+        #bus-card{
+        margin-top: 60px;
+        min-width: 500px;
+    }
+        .title-container{
+        display: inline-block;
+        background: transparent;
+        width: 150px;
+        height: 200px;
+        margin-left: 20px;
+    }
+        h1{
+        font-size: 1.8em;
+        margin-bottom: -15px;
+    }
+        h3{
+        font-size: 1em;
+    }
+        .hey-container{
+        min-width: 500px;
+        position:absolute;
+        height: auto;
+        width: 80%;
+        font-size: .9em;
+        color: white;
+        margin-top: 110px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 1px 0px white;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(0,0,0,.7);
+    }
+        .nav-bar{
+        position:fixed;
+        height: 60px;
+        width: 100%;
+        background: rgb(100,100,100,.0);
+        top: 0px;
+    }
+        .social{
+        position: relative;
+        display: inline-block;
+        height: auto;
+        width:40px;
+        padding: 5px;
+        float: right;
+    }
+        
+        
+    }
+        @media only screen and (max-width: 900px){
+        #scroll {
+        width:500px;
+        height:300px;
+        margin:100px auto;
+        background:rgba(0,0,0,.6);
+        border:2px solid #000;
+        overflow:auto;
+        border-radius: 10px;
+        box-shadow:0 0 1px 0 white;
+        
+    }
+        .portfolio-title{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 3em;
+        font-weight: bolder;
+        text-shadow: 0px 10px 50px green;
+        color: white;
+        top: 80px;
+        min-width: 100px;
+        }
+    }
 
 /* footer */
     #footer {
@@ -219,7 +318,6 @@
         bottom: 10px;
         color: white;  
         width: 100%;
-        padding: 10px;
         background: transparent; 
     }
 </style>
@@ -234,9 +332,9 @@
     
     <div class = "container">
         
-    <div class="back1" id="BACKTOTOP">
-        
-        <ul class="top-nav">
+    <div class="back1">
+        <section id="welcome-section">
+        <ul class="top-nav" id="navbar">
             
             <li class="nav-links">
                 <a href="#PORTFOLIO">Portfolio</a>
@@ -250,7 +348,7 @@
         
         <div class="nav-bar">
         <div class="social">
-        <a href="https://github.com/ericjoneill" target="_blank" title="GitHub">
+        <a href="https://github.com/ericjoneill" target="_blank" title="GitHub" id="profile-link">
             
         <img class = "social" src="https://www.shareicon.net/data/512x512/2016/07/06/107139_development_512x512.png" alt="GitHub" border="0"/>
             
@@ -274,10 +372,8 @@
         <div class="profile-pic"></div>
         <div class="title-container"><h1>Eric O'Neill</h1><h3>Web Developer</h3></div>
         </div>
-        
+        </section>
         </div>
-        
-        <div class="divider"></div>
         
         <div class = "back2" id="BIO">
             
@@ -320,6 +416,8 @@
         
         <div class="back3" id="PORTFOLIO">
             
+        <section id="projects">
+            
         <ul class="top-nav">
             
             <li class="nav-links">
@@ -357,7 +455,7 @@
             
             <div class="portfolio-title">My Portfolio</div>
         
-<div id="scroll">
+<div id="scroll" class="project-tile">
 <ul>
     
 <li><a href="https://ericjoneill.github.io/myWebsites/seasontix.html" target="_blank"><img src="https://i.imgur.com/LCmqvv2.png?1" alt=""><span>Football Tickets Page</span></a></li>
@@ -378,6 +476,7 @@
 
       
 </div>
+            </section>
         
 
         </div>
