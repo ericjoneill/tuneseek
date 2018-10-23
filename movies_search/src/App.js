@@ -24,7 +24,7 @@ class App extends Component {
 
   // this.state = {rows: movieRows}
 
-  this.performSearch("rugrats")
+  this.performSearch()
 }
 
   performSearch(searchTerm){
@@ -74,7 +74,7 @@ class App extends Component {
               </td>
               <td width='8'/>
               <td>
-                <h1>MoviesDB Search</h1>
+                <h3>MoviesDB Search</h3>
                 </td>
             </tr> 
           </tbody>
