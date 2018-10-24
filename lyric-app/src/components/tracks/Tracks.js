@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Consumer } from '../../context';
 import Spinner from '../layout/Spinner';
 import Track from '../tracks/Track';
-
-class Tracks extends Component {
+class Tracks extends React.Component {
   render() {
     return (
       <Consumer>
@@ -29,5 +28,4 @@ class Tracks extends Component {
     );
   }
 }
-
 export default Tracks;
