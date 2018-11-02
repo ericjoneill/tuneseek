@@ -74,7 +74,7 @@ class App extends Component {
               </td>
               <td width='8'/>
               <td>
-                <h2 class="App-header">MoviesDB Search</h2>
+                <h3>MoviesDB Search</h3>
                 </td>
             </tr> 
           </tbody>
