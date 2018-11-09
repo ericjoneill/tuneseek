@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/lyric-app/precache-manifest.fbacad0518ee14db20acfe5747dce4b1.js"
+  "/tuneseek/precache-manifest.3cc944c4c2188bc6e4f14e9a3e61b8ee.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lyric-app/index.html", {
+workbox.routing.registerNavigationRoute("/tuneseek/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
