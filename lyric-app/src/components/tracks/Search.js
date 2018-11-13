@@ -40,8 +40,8 @@ class Search extends Component {
           const { dispatch } = value;
           return (
             <div className="card card-body mb-4 p-4">
-              <h1 className="display-4 text-center">
-                <i className="fas fa-music" /> TuneSeek <i className="fas fa-music" />
+              <h1 className="text-center">
+                <small><sub><i className="fas fa-music" /></sub></small> TuneSeek <small><sub><i className="fas fa-music"/></sub></small>
               </h1>
               <p className="lead text-center">Find your fav tunes!</p>
               <form onSubmit={this.findTrack.bind(this, dispatch)}>
