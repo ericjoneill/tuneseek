@@ -1,13 +1,13 @@
 {
   "main.css": "/tuneseek/static/css/main.9743dcc1.chunk.css",
-  "main.js": "/tuneseek/static/js/main.9a7ab993.chunk.js",
-  "main.js.map": "/tuneseek/static/js/main.9a7ab993.chunk.js.map",
+  "main.js": "/tuneseek/static/js/main.04547c9a.chunk.js",
+  "main.js.map": "/tuneseek/static/js/main.04547c9a.chunk.js.map",
   "static/js/1.17465170.chunk.js": "/tuneseek/static/js/1.17465170.chunk.js",
   "static/js/1.17465170.chunk.js.map": "/tuneseek/static/js/1.17465170.chunk.js.map",
   "runtime~main.js": "/tuneseek/static/js/runtime~main.72d545b2.js",
   "runtime~main.js.map": "/tuneseek/static/js/runtime~main.72d545b2.js.map",
   "static/css/main.9743dcc1.chunk.css.map": "/tuneseek/static/css/main.9743dcc1.chunk.css.map",
   "index.html": "/tuneseek/index.html",
-  "precache-manifest.3cc944c4c2188bc6e4f14e9a3e61b8ee.js": "/tuneseek/precache-manifest.3cc944c4c2188bc6e4f14e9a3e61b8ee.js",
+  "precache-manifest.a596039cce7d205e5489dc15b42ef53b.js": "/tuneseek/precache-manifest.a596039cce7d205e5489dc15b42ef53b.js",
   "service-worker.js": "/tuneseek/service-worker.js"
 }

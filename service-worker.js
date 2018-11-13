@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/tuneseek/precache-manifest.3cc944c4c2188bc6e4f14e9a3e61b8ee.js"
+  "/tuneseek/precache-manifest.a596039cce7d205e5489dc15b42ef53b.js"
 );
 
 workbox.clientsClaim();
