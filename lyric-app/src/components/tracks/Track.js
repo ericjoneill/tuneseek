@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../layout/style.css'
 
 const Track = props => {
   const { track } = props;
@@ -11,12 +12,12 @@ const Track = props => {
           <h5>{track.artist_name}</h5>
           <p className="card-text">
             <strong>
-              <i className="fas fa-play" /> Title
+              <i className="fas fa-play pur" /> Title
             </strong>
             : {track.track_name}
             <br />
             <strong>
-              <i className="fas fa-compact-disc" /> Record
+              <i className="fas fa-compact-disc pur" /> Record
             </strong>
             : {track.album_name}
           </p>

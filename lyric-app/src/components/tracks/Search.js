@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Consumer } from '../../context';
+import '../layout/style.css'
 
 class Search extends Component {
   state = {
@@ -41,7 +42,7 @@ class Search extends Component {
           return (
             <div className="card card-body mb-4 p-4">
               <h1 className="text-center">
-                <small><sub><i className="fas fa-music" /></sub></small> TuneSeek <small><sub><i className="fas fa-music"/></sub></small>
+                <small><sub><i className="fas fa-music"  /></sub></small> TuneSeek <small><sub><i className="fas fa-music"/></sub></small>
               </h1>
               <p className="lead text-center">Find your fav tunes!</p>
               <form onSubmit={this.findTrack.bind(this, dispatch)}>
@@ -56,8 +57,9 @@ class Search extends Component {
                   />
                 </div>
                 <button
-                  className="btn btn-primary btn-lg btn-block mb-5"
+                  className="btn btn-lg bg-pur btn-block mb-5"
                   type="submit"
+                  
                 >
                   Get Song Lyrics
                 </button>
